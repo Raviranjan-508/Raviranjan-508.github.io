@@ -1,2 +1,3 @@
-# Raviranjan-508.github.io
-This clone is for the portfolio.
+# My-Portfolio
+This is my personal portfolio, where all details related to me is available. This portfolio is created using HTML, CSS and JS.
+Netlify Link :-- https://raviranjancs.netlify.app/
