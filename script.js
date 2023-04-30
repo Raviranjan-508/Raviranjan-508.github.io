@@ -28,21 +28,21 @@ $(document).ready(function(){
     });
 
     // toggle menu/navbar script
-    $('.menu-btn').click(function(){
+    $('.nav-menu').click(function(){
         $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
+        $('.nav-menu i').toggleClass("active");
     });
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [ "Full Stack Developer", "Backend Developer" , "Frontend Developer"],
+        strings: [ "Full Stack Developer", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [ "Full Stack Developer", "Backend Developer" , "Frontend Developer"],
+        strings: [ "Full Stack Developer", "Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

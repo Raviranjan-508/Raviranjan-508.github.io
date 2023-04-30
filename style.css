@@ -130,7 +130,7 @@ section .title::after{
 }
 
 /* menu btn styling */
-.menu-btn{
+.nav-menu{
     color: #fff;
     font-size: 23px;
     cursor: pointer;
@@ -536,19 +536,21 @@ section .title::after{
 }
 
 
-/* .max-width-contri{
+.max-width-contri{
     width: 95%;
     margin: auto;
+    /* border: 1px solid black; */
 }
 
 .max-width-contri1{
+    /* border: 1px solid black; */
     width: 50%;
     margin: auto;
 }
 .max-width-contri1img{
     width: 100%;
     margin: auto;
-} */
+}
 
 /* contact section styling */
 .contact .title::after{
@@ -679,11 +681,11 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
-    .menu-btn{
+    .nav-menu{
         display: block;
         z-index: 999;
     }
-    .menu-btn i.active:before{
+    .nav-menu i.active:before{
         content: "\f00d";
     }
     .navbar .menu{
